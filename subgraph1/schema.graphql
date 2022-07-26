@@ -14,7 +14,7 @@ type Sale @key(fields: "UPC StoreNbr Daily") {
     StoreNbr: ID!
     "The total sale amount for this item"
     POSSales: Float
-    "The quantity"
+    "The quantity of units sold in total"
     POSQty: Float
     "The number of stores where this item was sold"
     POSStoreCount: Int
